@@ -7,7 +7,13 @@
     font-family: 'Schoolbell', cursive;
     font-family: 'Inter', sans-serif;
     list-style: none;
+    scroll-behavior: smooth;
     
+}
+@media(min-width:1560px){
+    .container{
+        width: 1200px;
+    }
 }
 a{
     color: inherit;
@@ -18,6 +24,8 @@ a{
     width: 80%;
     margin: 0 auto;
 }
+
+
 .hamburger{
     display: none;
 }
