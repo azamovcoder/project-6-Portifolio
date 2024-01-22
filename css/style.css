@@ -10,11 +10,7 @@
     scroll-behavior: smooth;
     
 }
-@media(min-width:1560px){
-    .container{
-        width: 1200px;
-    }
-}
+
 a{
     color: inherit;
     text-decoration: none;
@@ -34,6 +30,18 @@ header{
     background-color: #08546C;
 }
  /* ---hero start --- */
+ #navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: url(../images/nav_back.png);
+        background-color: #08546C;
+    z-index:2;
+ }
+
+ .hero__container{
+    padding-top: 100px;
+ }
 
 .nav_container{
     display: flex;
@@ -634,4 +642,10 @@ background-color: #08546C;
     padding-top: 50px ;
     justify-content: center;
 }
+}
+
+@media (min-width:1560px) {
+    .container {
+        width: 1200px;
+    }
 }
